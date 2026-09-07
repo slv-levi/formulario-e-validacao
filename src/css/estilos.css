@@ -1,0 +1,134 @@
+@import url('./reset.css');
+
+html {
+    background-color: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    width: 800px;
+    height: 402px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../imagem/bg-repeat.jpg');
+    background-repeat: repeat-x;
+    background-size: 100% 100%;
+    padding: 0 50px;
+    
+}
+
+.informacoes {
+    color: #ffffff;
+    height: 111px;
+    width: 300px;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.informacoes h2 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.informacoes p {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+    .campos{
+        height: 378px;
+        width: 340px;
+        margin-right: 50px;
+        background-color: #ffffff;
+        padding: 20px;
+        margin: 0;
+    }
+    
+    .campos .campo{
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .campos .campo:nth-child(4) {
+        margin-bottom: 0;
+    }
+
+    .campos .input {
+        width: 100%;
+        height: 35px;
+        font-size: 1.5rem;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        padding: 7px;
+    }
+
+    .campos .input.ok {
+        border: 2px solid #00c22b;
+    }
+
+    .campos textarea {
+        height: 100px !important;
+        resize: none;
+    }
+
+    .campos input::placeholder {
+        color: #a8a8a8;
+        font-weight: bold;
+    }
+
+
+    .campos textarea::placeholder {
+        color: #a8a8a8;
+        font-size: 1.5rem;
+        font-weight: bold;
+
+    }
+
+    .campos .campos-obrigatorio {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-left: -5px;
+        padding-bottom: 15px;
+        margin-top: 9px;
+    }
+
+    .campos button {
+        width: 100%;
+        height: 40px;
+        background-color: #3ccc87;
+        border: none;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 22px;
+        cursor: pointer;
+    }
+
+    .obrigatorio {
+        position: absolute;
+        bottom: -15;
+        font-size: 0.8rem;
+        color: #f52e2e;
+        padding-left: 2px;
+        display: none;
+    }
+
+    .obrigatorio.mostrar {
+        display: block;
+    }
+
+    .input.mostrar {
+        border: 2px solid #f52e2e;
+    }
+
+
+
+
+
